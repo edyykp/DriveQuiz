@@ -1,0 +1,6 @@
+-It's a quiz made of 26 questions testing your driving skills;
+-open WindowsFormsApp1.sln ;
+-I am sorry about any possible grammar mistakes but I initially coded it with 
+ Romanian language 
+ and then translated it through Google Translate.
+-Have fun
