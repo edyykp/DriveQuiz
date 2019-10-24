@@ -1,6 +1,17 @@
--It's a quiz made of 26 questions testing your driving skills;
--open WindowsFormsApp1.sln ;
--I am sorry about any possible grammar mistakes but I initially coded it with 
- Romanian language 
- and then translated it through Google Translate.
--Have fun
+The game is provided with 3 forms and 1 database
+
+Form1.cs
+	- the login form which includes a button to exit the game and a button to open the register
+	  form
+
+Form3.cs
+	- the register form which requests personal data of the user 
+
+Form2.cs
+	- it displays 3 labels ( Questions left, correct Answers, wrong Answers updated at every
+	  step ), a timer ( 30 min to finish the quiz ), the quiz with 3 options of correct answer
+	 ( radioButtons ), 3 buttons ( change the question, delete the answer, confirm answer )
+	-the quiz ends when you have 5 mistakes or when the time is over, asking you if you want
+	 to try again
+	- the questions and the answers are stored in 4 strings and they are randomly revealed into
+	  the quiz by updating the texts in textBoxes
